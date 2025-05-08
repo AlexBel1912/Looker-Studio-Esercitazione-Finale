@@ -33,25 +33,44 @@ Lo scraping è stato effettuato con Python. Dove lo scraping automatico non era 
 # 🛠️ Strumenti Utilizzati
 Python:
 
-Web scraping da Wikipedia
+ - Web scraping con requests, BeautifulSoup
 
-Pulizia e trasformazione dei dati (pandas)
+ - Pulizia e trasformazione dei dati con pandas
 
-Identificazione del genere degli artisti tramite l’API genderize (libreria genderize)
+ - Identificazione del genere degli artisti tramite l’API genderize (genderize library)
 
 Excel:
 
-Integrazione e completamento dei dati
+ - Integrazione e completamento dei dati
 
-Operazioni di pulizia aggiuntive
+ - Pulizia dei dataset
 
 Power Query (in Excel):
 
-Trasformazione dati e gestione delle tabelle
+ - Trasformazioni e gestione avanzata dei dati
 
 Google Looker Studio:
 
-Visualizzazione interattiva della dashboard finale
+ - Visualizzazione interattiva dei dati tramite dashboard
+
+🧾 Contenuti del Repository
+Il repository contiene:
+
+📁 Excel/
+Cartella con tutti i file Excel utilizzati e generati per l'analisi
+
+📁 Python/
+Codici Python utilizzati per lo scraping, la pulizia dei dati e l'inferenza di genere
+
+📄 README.md
+Questo file, che descrive il progetto, i dati e le modalità di lavoro
+
+📄 W15D8_-_Pratica.pdf
+Il report finale esportato in formato PDF
+
+📄 W18D8_-_Pratica_Looker_Studio.txt
+File contenente il link alla dashboard su Google Looker Studio
+
 
 # 📈 Contenuti della Dashboard
 La dashboard contiene:
